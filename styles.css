@@ -1,0 +1,91 @@
+/* add black background to top nav bar */
+.topnav {
+  background-color: indianred;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: seagreen;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  align-content: center;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: lightcoral;
+  color: bisque;
+}
+
+html {
+  background-color: bisque;
+}
+h1 {
+  color: bisque;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 75px;
+  text-align: center;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: seagreen;
+  font-family: "IM Fell English", serif;
+  font-size: 50px;
+  text-align: center;
+}
+p,
+table {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 25px;
+}
+header {
+  background-image: url("https://www.tentamus.com/wp-content/uploads/2019/10/coffee-beans-taiwan-adulteration-700x408.jpg");
+  width: 100%;
+  height: 150px;
+}
+
+table,
+table th,
+table td {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  table-layout: fixed;
+}
+
+footer {
+  color: darkseagreen;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.container1 {
+  width: 100%;
+  margin: 1px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic1,
+.pic2 {
+  border-radius: 50%;
+}
